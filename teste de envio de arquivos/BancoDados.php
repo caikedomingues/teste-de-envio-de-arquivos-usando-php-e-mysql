@@ -65,7 +65,7 @@
 
                 /*Após preparar o caminho, temos que mover o arquivo da pasta temporaria do servidor
                 para a pasta que ira conter as fotos. Para realizar essa ação, vamos usar o metodo
-                move_upload_file que recebe 2 parametros, a pasta origem e a pasta que ira receber
+                move_upload_file que recebe 2 parametros, o arquivo e a pasta que ira receber
                 os dados do arquivo */
                 move_uploaded_file($fotos["tmp_name"], $destino_fotos);
 
